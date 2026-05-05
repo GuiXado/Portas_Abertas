@@ -539,30 +539,26 @@ section,
 aqui até o final foi para tentar deixar mais resposivo a "capa"
 */
 
-/* remove padding padrão que quebra o cálculo */
-#hero.section,
-#clients.section {
+.primeira-tela #hero.section,
+.primeira-tela #clients.section {
   padding: 0 !important;
 }
 
-/* container da primeira tela */
 .primeira-tela {
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* HERO ocupa quase tudo */
-#hero {
+.primeira-tela #hero {
   flex: 1;
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
   justify-content: center;
   padding-top: 40px;
 }
 
-/* garante que conteúdo não empurre layout */
-#hero .container {
+.primeira-tela #hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -571,32 +567,28 @@ aqui até o final foi para tentar deixar mais resposivo a "capa"
   padding-bottom: 0;
 }
 
-/* imagem da capa controlada */
-.hero-img {
+.primeira-tela .hero-img {
   width: 100%;
   max-width: 600px;
   height: auto;
 }
 
-/* CLIENTS fica colado no final */
-#clients {
+.primeira-tela #clients {
   height: 90px;
   display: flex;
   align-items: center;
 }
 
-/* remove espaçamentos internos que bagunçam */
-#clients .container {
+.primeira-tela #clients .container {
   padding: 0;
 }
 
-/* ajuste logos */
-.clients .client-logo img {
-  max-height: 50px;
+.primeira-tela .clients .client-logo img {
+  max-height: 70px;
   width: auto;
 }
 
-#hero h1 {
+.primeira-tela #hero h1 {
   margin-top: 0;
   margin-bottom: 10px;
 }
