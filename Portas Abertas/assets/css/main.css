@@ -584,8 +584,7 @@ aqui até o final foi para tentar deixar mais resposivo a "capa"
 }
 
 .primeira-tela .clients .client-logo img {
-  max-height: 70px;
-  width: auto;
+  max-height: 85px;
 }
 
 .primeira-tela #hero h1 {
